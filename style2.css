@@ -1,0 +1,11 @@
+body {
+  padding: 20px 100px;
+  min-width: 700px;
+}
+#backToHome {
+    width: 100%;
+    padding-left: 200px;
+    margin-top: 50px;
+}
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleContact.css">
+    <script src="script.js"></script>
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me . . .</h1>
+    <form action="mailto:manalsirhan091@gmail.com" method="post" enctype="multipart/form-data" name="EmailForm">
+        <div id="form">
+            <div class="formElement"> 
+                <label for="fullName">Enter your Full Name:  </label>
+                    <input type="text" name="fullName" >
+                </div>
+                <div class="formElement">
+                    <label for="email">Enter your Email: </label>
+                    <input type="email" name="email">
+                </div>
+                <div class="formElement">
+                    <label for="message">message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+        </div>
+        <input type="submit" value="SEND" id="send">
+    </form>
+    <div id="backToHome">
+        <div id="HomeButton" class="btn">
+           <a href="index.html">Home</a>
+    </div> 
+</body>
+</html>

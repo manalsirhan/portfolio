@@ -1,0 +1,8 @@
+body{
+    min-height: 800px;
+}
+#backToHome {
+    width: 100%;
+    padding-left: 700px;
+    margin-top: 50px;
+}
